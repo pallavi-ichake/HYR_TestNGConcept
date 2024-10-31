@@ -24,6 +24,8 @@ public class PassingParamterThroughMaven
 		driver.findElement(By.id("email")).sendKeys("Pall");
 
 		driver.findElement(By.id("pass")).sendKeys("admin");
+		System.out.println("PULL REQUEST TRIED");
+		System.out.println("Working Directory and Staging area tried");
 
 	}
 
